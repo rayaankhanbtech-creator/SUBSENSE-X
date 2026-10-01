@@ -184,6 +184,7 @@ Android Monitoring Application
      ├── Anomaly Detection
      ├── Local Alerts
      └── Local Data
+
 🧮 Risk Intelligence
 SUBSENSE-X combines multiple telemetry signals instead of relying on a single sensor value.
 The monitoring logic considers factors such as:
@@ -200,7 +201,8 @@ Sensor Health
 Risk Assessment
      ↓
 Safety State
-This helps distinguish isolated sensor fluctuations from broader abnormal patterns.
+This helps distinguish isolated sensor fluctuations from broader abnormal patterns
+
 📈 Analytics
 The application provides monitoring indicators including:
 Risk score
@@ -214,6 +216,7 @@ Sensor health
 Packet activity
 Incident history
 A transparent decision trace can also be used to understand why a risk state was generated.
+
 🧪 Fault Detection
 SUBSENSE-X can identify sensor-related problems such as:
 Missing telemetry
@@ -222,6 +225,7 @@ Low battery
 Poor signal
 Sensor failure
 This is important because a monitoring system should distinguish between a genuine environmental anomaly and a malfunctioning sensor.
+
 🔐 Safety Philosophy
 SUBSENSE-X follows a safety-first design approach:
 Monitor continuously.
@@ -231,6 +235,7 @@ Estimate risk.
 Generate warnings.
 Preserve local operation when connectivity is unavailable.
 The system is intended as a decision-support and early-warning platform, not as a replacement for certified mine safety procedures or professional engineering assessment.
+
 🛠️ Technology Stack
 Android
 Kotlin
@@ -256,6 +261,8 @@ Displacement sensors
 Crack sensors
 Temperature sensors
 Humidity sensors
+
+
 SUBSENSE-X/
 │
 ├── .github/
